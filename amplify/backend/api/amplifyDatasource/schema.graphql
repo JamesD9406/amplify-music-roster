@@ -1,0 +1,6 @@
+type Artists @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  rate: Float
+  streams: Float
+}
